@@ -1,0 +1,35 @@
+name: Build PoE Regex Generator EXE
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Позволяет запускать сборку вручную кнопкой
+
+jobs:
+  build:
+    runs-on: windows-latest # Собираем строго на Windows для получения .exe
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12' # Используем свежую версию Питона
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller pyperclip
+
+    - name: Build with PyInstaller
+      # Здесь прописано точное имя твоего скрипта
+      run: pyinstaller --onefile poe-regex-generator.py
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Generator-EXE-Build
+        # Путь, откуда GitHub заберет готовый экзешник
+        path: dist/poe-regex-generator.exe
