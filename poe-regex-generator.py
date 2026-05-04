@@ -25,7 +25,7 @@ def main():
                 line = line.strip()
                 if not line or '|' not in line:
                     continue
-                name, regex = line.split('|')
+                name, regex = line.split('|', 1)
                 mods_dict[str(index)] = {
                     "mod_name": name,
                     "regex": regex
