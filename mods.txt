@@ -1,51 +1,232 @@
-Reflect Physical|flec.*phy
-Reflect Elemental|flec.*ele
-Cannot Leech|cannot.*lee
-Cannot Regenerate Life/Mana/ES|regen
-Reduced Recovery Rate of Life/ES|s.*recov
-Reduced Chance to Block|ced.*blo
-Reduced Armour|less.*arm
-Reduced Aura Effect|non-c
-Minus Maximum Resistances|max.*res
-Less Cooldown Recovery|s.*coo
-Less Area of Effect|less.*area
-Reduced Flask Charges|ced.*fla
-Less Defences|less.*def
-Less Accuracy|less.*acc
-Extra Physical as Fire|s.*fire
-Extra Physical as Cold|s.*col
-Extra Physical as Lightning|s.*ligh
-Extra Physical as Chaos|s.*chao
-Monsters Poison on Hit|son.*on.*hit
-Monsters Blind on Hit|ind.*on.*hit
-Monsters Maim on Hit|aim.*on.*hit
-Monsters Hinder on Hit|der.*on.*hit
-Monsters Steal Charges|eal.*char
-Monsters Ignite/Freeze/Shock|ite.*free
-Cannot Evade|cannot.*eva
-Cannot Suppress Spell Damage|cannot.*supp
+Monsters' skills Chain 2 additional times|ain.*2
+Monsters fire 2 additional Projectiles|fire.*2
+Area is inhabited by Abominations|abom
+Area is inhabited by Animals|anim
+Area is inhabited by Demons|demo
+Area is inhabited by Ghosts|ghos
+Area is inhabited by Goatmen|goat
+Area is inhabited by Humanoids|huma
+Area is inhabited by Cultists of Kitava|cult.*kit
+Area is inhabited by Lunaris fanatics|luna.*fana
+Area is inhabited by ranged monsters|rang.*mon
+Area is inhabited by Skeletons|skel
+Area is inhabited by Solaris fanatics|sola.*fana
+Area is inhabited by Sea Witches and their Spawn|witc.*spaw
+Area is inhabited by Undead|unde
+All Monster Damage from Hits always Ignites|ways.*igni
+Monsters' Action Speed cannot be modified|not.*be.*mod
+Monsters cannot be Taunted|not.*be.*tau
+Area has increased monster variety|vari
+increased number of Rare Monsters|crea.*rare
+Area contains many Totems|tote
+Area contains two Unique Bosses|unique.*boss
+Unique Bosses are Possessed|boss.*poss
+Area contains additional packs of Restless Dead|restl
+Area contains The Feared|fear
+Area contains The Twisted|twis
+Area contains The Formed|form
+Area contains The Elderslayers|elder.*slay
+Area contains additional packs of Map Bosses|packs.*four
+Area contains Malachai's Creeping Agony|creep.*agon
+Players cannot Block|not.*blo
+Area is inhabited by Porcupines|porc
+Monsters inflict Petrification|petr
+Players have 100% increased Character Size|char.*size
+Monsters gain a Frenzy Charge on Hit|frenzy.*hit
+Monsters have +6 to Maximum Frenzy Charges|max.*fren
+Monsters gain an Endurance Charge on Hit|endur.*hit
+Monsters have +6 to Maximum Endurance Charges|max.*endu
+Rare Monsters each have additional Modifiers|rare.*add.*mod
+Slaying Enemies grants Rampage bonuses|ramp
+Non-Unique Equipment drops as Currency|drop.*curr
+Area contains additional packs of Frogs|frog
+Area is inhabited by Kitava's Heralds|kit.*hera
+Area is inhabited by Bone Husks|bone.*husk
+Area contains packs of Sulphite Golems|sulph
+Unstable Breaches contain a Boss|brea.*boss
+Area contains additional unstable Breaches|unst.*brea
+Breaches must be Stabilised to claim Reward|must.*stab
+Monsters gain a Power Charge on Hit|power.*hit
+Monsters have +6 to Maximum Power Charges|max.*pow
+Players in Area are 100% Delirious|delir
+Living Weapons|livi.*weap
+Monster corpses cannot be Destroyed|not.*be.*dest
+Debuffs on players expire 50% slower|debu.*slow
+Players gain Instability on Kill|inst.*kill
+Unstable Players eventually detonate|deto
+Area contains The Forgotten|forg
+Area contains Alva|alva
+Incursion Architects are Possessed|arch.*poss
+All Incursions must be completed|incur.*must
+Area contains an additional Abyss|abyss
+Abysses spawn 200% increased Monsters|abyss.*crea
+All Abysses must be completed|abyss.*must
+Players' Travel Skills are Disabled|trav.*disa
+Players have 50% reduced Movement Speed|redu.*move
+Area becomes increasingly lethal|leth
+Players cannot Suppress Spell Damage|not.*supp
+Tormented Spirits can Possess Players|spir.*poss
+Tormented Spirits cannot Possess Monsters|spir.*not.*mon
+Area is haunted by Tormented Spirits|haunt.*spir
+Area contains an additional Harvest Boss|harv.*boss
+Players gain Rare Monster Modifiers on Kill|gain.*rare
+Area is affected by a Corrupting Tempest|temp
+Area contains packs of Untainted Wild Animals|untai
+Players have 50% reduced Character Size|redu.*char
+Players cannot gain Flask Charges|not.*gain.*fla
+Area contains Einhar, Exilehunter|einh
+Monsters drop no Items|drop.*no
+Players cannot Evade|not.*eva
+Monsters Kill things with 20% or lower Life|kill.*20
+Players do not gain Experience|not.*gain.*expe
+Players in Area are driven mad|driv.*mad
+Monsters inflict Malediction on hit|male.*hit
+Area contains 3 Gigantic Rogue Exiles|3.*giga
+Monsters inflict Grasping Vine on Hit|grasp.*vine
+Monsters are Possessed by Tormented Spirits|mon.*poss.*spir
+Area contains The Remembered|remem
+Monsters have 25% chance to have a Volatile Core|vola.*core
+Players are assaulted by apparitions of Baran|bara
+Players are assaulted by apparitions of Drox|drox
+Players are assaulted by apparitions of Veritania|veri
+Players are assaulted by apparitions of Al-Hezmin|hezm
+Players are assaulted by apparitions of Sirus|siru
+Players are assaulted by apparitions of The Shaper|shap
+Players are assaulted by apparitions of The Elder|elde
+Players are assaulted by apparitions of Atziri|atzi
+Players are assaulted by many dangerous Apparitions|dang.*appa
+Area contains an additional Legion Encounter|legi
+All Legion monsters must be released|legi.*must
+Slaying Enemies can attract Beyond monsters|beyo
+Monsters from Beyond create Desecrated Ground|beyo.*dese
+Beyond Bosses cannot spawn|beyo.*not.*spa
+Players' Minions deal 10% less Damage|mini.*10.*less
+Players deal 10% less Damage per Equipped Item|deal.*10.*less
+Area is infested with Maddening Tentacles|tent
+All Magic and Normal Monsters are in a Union of Souls|union
+Players have Shroud Walker|shro.*wa
+Players are randomly targeted by Meteors|meteo
+Area becomes fatal after some time|fatal
+Portals to Area close over time|port.*clos
+Portals only close when Players die|clos.*die
+10% increased Cost of Skills|cost.*skil
+Area contains many Detonation Totems|deto.*tote
+Rare Monsters spawn Duplicate of Map Boss|dupl.*boss
+Monsters reflect 100% of Physical Damage|flec.*100.*phy
+Monsters reflect 100% of Elemental Damage|flec.*100.*ele
+Monsters Enrage on Low Life|enra
+Players who Die are sent to the Void|void
+reduced effect of Non-Curse Auras|non-c.*aura
+Smuggler's Caches are guarded|smug.*guar
+Area contains a Smuggler's Cache|smug.*cach
+All Smuggler's Caches must be opened|smug.*must
+Area contains enemies of all influence types|influ
+Players reflect 1000% of Melee Physical Damage|flec.*1000
+Players deal 500% increased Damage while Dead|dead.*500
+Area contains roaming Hexfields|hexf
+Area contains Sirus' Deatomisation Storms|deato
+Runic Monsters have 200% more Life|runic.*life
+Area contains an Expedition Encounter|expe
+Runic Monsters deal 100% more Damage|runic.*deal
+Must complete an Expedition with Remnants|must.*expe
+The Maven interferes with Players|mave
+Rare Monsters create Frost Walls and Flee|fros.*wall
+Players gain a random Movement Speed modifier|rand.*move
+Players are assaulted by Ruinous Ghosts|ruin.*ghos
+Reaching seven Ruin prevents Reward|seven.*ruin
+Area has no chance to contain Ultimatum|no.*ulti
+Unique Monsters have 2 random Shrine Buffs|shri.*buff
+cannot Recover Life/ES above 50% during Rituals|ritu.*50
+Areas contain Ritual Altars|ritu.*alta
+Must fully complete all Ritual Encounters|ritu.*must
+Durability of Ichor Pumps in Area is 1|dur.*1
+Area contains a Blight Encounter|blig
+Rare Monsters have Essence effects|esse
+cannot choose which Ultimatum Modifier is applied|not.*choo.*ulti
+Areas contain an Ultimatum Encounter|ulti.*enca
+Must complete ten Ultimatum Encounter waves|ulti.*must
+Monsters can only be Damaged within 2 metres|within.*2
+Maximum number of Players in Area is one|max.*one
+Area contains a Bismuth Ore Deposit|bism
+Area contains 10 Exquisite Vaal Vessels|vaal.*vess
+All Strongboxes must be opened|stro.*must
+Unique Boss deals increased Damage|boss.*crea.*dam
+Unique Boss has increased Attack/Cast Speed|boss.*crea.*spee
+Unique Boss has increased Life|boss.*crea.*life
+Unique Boss has increased Area of Effect|boss.*crea.*area
+Monsters cannot be Stunned|not.*stun
+more Monster Life|more.*life
+extra Physical Damage as Cold|extr.*col
+increased Monster Damage|crea.*mon.*dam
+Monsters reflect Elemental Damage|flec.*ele
+increased Monster Movement Speed|crea.*mon.*move
+increased Monster Attack Speed|crea.*mon.*atta
+increased Monster Cast Speed|crea.*mon.*cast
+extra Physical Damage as Fire|extr.*fire
+extra Physical Damage as Lightning|extr.*ligh
+Monsters reflect Physical Damage|flec.*phy
+Monster Physical Damage Reduction|phys.*redu
+Monster Chaos Resistance|chao.*res
+Monster Elemental Resistances|elem.*res
+chance to avoid Poison, Impale, and Bleeding|avoid.*pois
+less effect of Curses on Monsters|less.*curs
+Monsters' Attacks chance to Impale|impale
+chance to Suppress Spell Damage|supp.*spel
+Maximum Life as Extra Maximum Energy Shield|life.*as.*es
+Monsters Ignite, Freeze and Shock on Hit|igni.*free
+more Scarabs found in Area|more.*scar
+more Maps found in Area|more.*map
+Monsters' skills Chain 3 additional times|ain.*3
+Monsters' Projectiles can Chain with Terrain|chain.*terr
+less effect of Flasks applied to them|less.*flas
+more Currency found in Area|more.*curr
+Area contains Labyrinth Hazards|laby.*haza
+Monsters have 100% increased Area of Effect|mon.*100.*area
+extra Damage of a random Element|extr.*rand.*elem
+extra Physical Damage as Chaos|extr.*chao
+Chance to Block Attack Damage|chan.*blo
+Map Boss is accompanied by a Synthesis Boss|synt.*boss
+Players are assaulted by Bloodstained Sawblades|sawb
+Rare monsters in area are Shaper-Touched|shap.*touc
+reduced Recovery from Leech|redu.*leec
+Players are Cursed with Vulnerability|vuln
+Players are Cursed with Temporal Chains|temp
+Players are Cursed with Elemental Weakness|elem.*weak
+Monster Critical Strike Multiplier|crit.*mult
+Monster Critical Strike Chance|crit.*chan
+Area contains Unstable Tentacle Fiends|tent.*fien
+Debuffs on Monsters expire 100% faster|debu.*fast
+Monsters have +1 to Maximum Endurance Charges|max.*endu.*1
+Monsters gain an Endurance Charge when hit|endu.*hit
+Players have -20% to all maximum Resistances|minus.*20.*res
+Players are targeted by a Meteor when they use a Flask|meteo.*flas
+Area contains patches of moving Marked Ground|mark.*grou
+Monster Damage Penetrates Elemental Resistances|pene.*elem
+Rare monsters in area Temporarily Revive|revi
+Monsters take reduced Extra Damage from Critical Strikes|redu.*crit
+Buffs on Players expire faster|buff.*fast
+Auras from Player Skills also affect Enemies|aura.*enem
+All Damage from Monsters' Hits can Poison|hits.*pois
+Monsters Inflict Withered on Hit|with.*hit
 Monsters are Hexproof|hexp
-Monsters Cannot be Stunned|be.*stun
-Cursed with Elemental Weakness|tal.*wea
-Cursed with Enfeeble|enf
-Cursed with Temporal Chains|poral
-Cursed with Vulnerability|vul
-Burning Ground|urning.*gro
-Chilled Ground|illed.*gro
-Desecrated Ground|secrated.*gro
-Shocked Ground|ocked.*gro
-Consecrated Ground|crat.*gro
-Monsters gain Endurance Charges|endurance.*char
-Monsters gain Frenzy Charges|frenzy.*char
-Monsters gain Power Charges|power.*char
-Players have Shroud Walker|oud.*wa
-Players targeted by Meteors|teor
-Area becomes fatal/Portals close|fatal|close
-Area contains Drowning Orbs|drown
-Area contains Sirus Storms|deato
-Apparitions of Bosses|aritio
-Monsters fire additional Projectiles|tional.*pro
-Monsters skills Chain|hain.*add
-Monsters Critical Strike Chance/Multi|tical.*str
-Monsters Action/Move Speed cannot be modified|cannot.*be.*mod
-Players gain Instability/Detonate|deto
+Area has patches of Burning Ground|burn.*grou
+Area has patches of Chilled Ground|chil.*grou
+Area has patches of desecrated ground|dese.*grou
+Monsters have 30% chance to Avoid Elemental Ailments|avoi.*elem
+Players have 20% less Recovery Rate|less.*reco
+Players have 20% reduced Chance to Block|redu.*blo
+Players have 20% less Armour|less.*arm
+Players have -10% to Suppressed Spell Damage Prevented|minus.*10.*supp
+Monsters have 30% increased Accuracy Rating|crea.*accu
+Area has patches of Shocked Ground|shoc.*grou
+Area has patches of Consecrated Ground|cons.*grou
+Players have 20% less Cooldown Recovery Rate|less.*cool
+Players cannot inflict Exposure|not.*expo
+Monsters Blind on Hit|blin.*hit
+Monsters Maim on Hit|maim.*hit
+Monsters Hinder on Hit|hind.*hit
+Monsters steal Power, Frenzy and Endurance charges|stea.*char
+Monsters cannot be Leeched from|not.*leec
+Players are Cursed with Enfeeble|enfe
+Players have minus to all maximum Resistances|minus.*max.*res
+Players cannot Regenerate Life, Mana or Energy Shield|not.*regen
