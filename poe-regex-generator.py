@@ -74,9 +74,9 @@ else:
     final_paste = "|".join(final_regex_list)
     print(f"Your regex, Exile: [ {final_paste} ] \n" + "-"*65 )
 
-    input("\nPress Enter to exit...")
 
     pyperclip.copy(final_paste)
     print("[+] Regex copied! Journey well, Exile!")
 
     print("-"*65)
+    input("\nPress Enter to exit...")
