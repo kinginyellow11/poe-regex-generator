@@ -1,10 +1,16 @@
 #!/usr/bin/python3
 import pyperclip
 import os
+import sys
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if getattr(sys, 'frozen', False):
+    
+    application_path = os.path.dirname(sys.executable)
+else:
+    
+    application_path = os.path.dirname(os.path.abspath(__file__))
 
-MODS_FILE = os.path.join(SCRIPT_DIR, 'mods.txt')
+MODS_FILE = os.path.join(application_path, 'mods.txt')
 
 MODS_FILE = 'mods.txt'
 
@@ -67,6 +73,8 @@ else:
 
     final_paste = "|".join(final_regex_list)
     print(f"Your regex, Exile: [ {final_paste} ] \n" + "-"*65 )
+
+    input("\nPress Enter to exit...")
 
     pyperclip.copy(final_paste)
     print("[+] Regex copied! Journey well, Exile!")
