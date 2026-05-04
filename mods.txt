@@ -1,0 +1,51 @@
+Reflect Physical|flec.*phy
+Reflect Elemental|flec.*ele
+Cannot Leech|cannot.*lee
+Cannot Regenerate Life/Mana/ES|regen
+Reduced Recovery Rate of Life/ES|s.*recov
+Reduced Chance to Block|ced.*blo
+Reduced Armour|less.*arm
+Reduced Aura Effect|non-c
+Minus Maximum Resistances|max.*res
+Less Cooldown Recovery|s.*coo
+Less Area of Effect|less.*area
+Reduced Flask Charges|ced.*fla
+Less Defences|less.*def
+Less Accuracy|less.*acc
+Extra Physical as Fire|s.*fire
+Extra Physical as Cold|s.*col
+Extra Physical as Lightning|s.*ligh
+Extra Physical as Chaos|s.*chao
+Monsters Poison on Hit|son.*on.*hit
+Monsters Blind on Hit|ind.*on.*hit
+Monsters Maim on Hit|aim.*on.*hit
+Monsters Hinder on Hit|der.*on.*hit
+Monsters Steal Charges|eal.*char
+Monsters Ignite/Freeze/Shock|ite.*free
+Cannot Evade|cannot.*eva
+Cannot Suppress Spell Damage|cannot.*supp
+Monsters are Hexproof|hexp
+Monsters Cannot be Stunned|be.*stun
+Cursed with Elemental Weakness|tal.*wea
+Cursed with Enfeeble|enf
+Cursed with Temporal Chains|poral
+Cursed with Vulnerability|vul
+Burning Ground|urning.*gro
+Chilled Ground|illed.*gro
+Desecrated Ground|secrated.*gro
+Shocked Ground|ocked.*gro
+Consecrated Ground|crat.*gro
+Monsters gain Endurance Charges|endurance.*char
+Monsters gain Frenzy Charges|frenzy.*char
+Monsters gain Power Charges|power.*char
+Players have Shroud Walker|oud.*wa
+Players targeted by Meteors|teor
+Area becomes fatal/Portals close|fatal|close
+Area contains Drowning Orbs|drown
+Area contains Sirus Storms|deato
+Apparitions of Bosses|aritio
+Monsters fire additional Projectiles|tional.*pro
+Monsters skills Chain|hain.*add
+Monsters Critical Strike Chance/Multi|tical.*str
+Monsters Action/Move Speed cannot be modified|cannot.*be.*mod
+Players gain Instability/Detonate|deto
